@@ -33,7 +33,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               variant="outline" 
-              className="border-white border-2 text-white hover:bg-white hover:text-forest-800 transition-colors"
+              className="border-white border-2 text-forest-600 hover:bg-white hover:text-forest-800 transition-colors"
             >
               Learn More
             </Button>
