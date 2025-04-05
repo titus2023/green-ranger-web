@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Heart, Leaf } from "lucide-react";
+import { Menu, X, Heart } from "lucide-react";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,7 +15,11 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-forest-100">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <Link to="/" className="flex items-center space-x-2">
-          <Leaf className="h-8 w-8 text-forest-600" />
+          <img 
+            src="/lovable-uploads/ffed93f0-876c-4b83-8037-0f6a5c7f5051.png" 
+            alt="GreenRangers Logo" 
+            className="h-10 w-auto" 
+          />
           <span className="text-xl font-bold text-forest-800">GreenRangers</span>
         </Link>
 
