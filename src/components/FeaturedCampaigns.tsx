@@ -2,7 +2,7 @@
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ArrowUpRight, Users, Globe, Cloud } from "lucide-react";
+import { ArrowUpRight, Users, Globe, Cloud, Leaf } from "lucide-react";
 
 const FeaturedCampaigns = () => {
   const campaigns = [
@@ -32,6 +32,15 @@ const FeaturedCampaigns = () => {
       category: "Community",
       icon: <Users className="h-5 w-5" />,
       progress: 78,
+    },
+    {
+      id: 4,
+      title: "Wildlife Conservation",
+      description: "Protecting endangered species and their habitats through education, research, and conservation efforts.",
+      image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80",
+      category: "Wildlife",
+      icon: <Leaf className="h-5 w-5" />,
+      progress: 35,
     },
   ];
 
