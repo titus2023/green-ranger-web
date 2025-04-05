@@ -30,7 +30,11 @@ const Hero = () => {
             <Button size="lg" className="bg-forest-600 hover:bg-forest-500 text-white">
               Get Involved <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="border-white border-2 text-white hover:bg-white hover:text-forest-800 transition-colors"
+            >
               Learn More
             </Button>
           </div>
